@@ -1,0 +1,122 @@
+.navbar-brand{
+    font-family: Times New Roman;
+    font-size: 30px;
+}
+.icons{
+    
+    color:white;
+    font-size: 2.5em;
+    opacity: 100%;
+    
+}
+
+.send-request{
+
+    margin-top: 3%;
+    opacity: 100%;
+    text-align:center;
+    font-family: Roboto;
+}
+
+.button-text{
+
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Apple{
+    cursor: pointer;
+    position: relative;
+    left: 71%;
+    font-size: smaller !important;
+    top: 0;
+}
+
+.Android{
+    left: 70% !important;
+}
+
+.meeting{
+    color: grey;
+    padding: 0 16px;
+}
+
+.pick{
+    color: grey;
+    padding: 0 16px;
+}
+
+b{
+    font-family: sans-serif;
+}
+.btn {
+    display: inline-block !important;
+    padding: 6px 12px !important;
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 2.428571 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    background-image: none !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    background: #d9edf717 !important;
+    box-shadow: 0px 10px 10px #ddddddd4;
+    border-top: 1px solid #8080804f!important;
+}
+
+.navbar{
+    position: relative;
+    min-height: 33px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    height: 53px;
+    border: 0 !important;
+}
+
+h1{
+    margin-left: 11px !important;
+    font-size: 25px;
+}
+
+.container{
+    position: relative;
+    top: -21px;
+}
+
+.heading{
+    font-size: 27px;
+    margin-top: 13px;
+    font-family: initial;
+}
+
+.display_none{
+    display: none;
+}
+
+@media  screen and (max-width: 767px){
+    .col-sm-6 {
+        cursor: pointer;
+        position: relative;
+        font-size: smaller !important;
+        top: 2px;
+    }
+    .Apple {
+        top: -50px;
+    }
+}
+
+@media  screen and (max-width: 360px){
+
+}
+

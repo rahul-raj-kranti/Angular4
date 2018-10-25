@@ -1,0 +1,68 @@
+
+/*Nav bar header*/
+.navbar-brand{
+
+    font-family: Times New Roman;
+    font-size: 30px;
+    color: white !important;
+}
+
+/*Request call heading*/
+.heading{
+    
+    margin-top: 2%;
+    font-family: Roboto;
+    position: center;
+}
+
+/* Call request sent text */
+.request-text{
+    
+    color: #95989A;
+}
+
+/* Download app text */
+.Download-app{
+
+    margin-top: 7%;
+    color: #95989A;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/*Call Confirmation Text*/
+.confirmation-text{
+
+    margin-top: 1%;
+    color: #95989A;
+    left: 28%;
+    position: absolute;
+}
+
+.text-center{
+    font-family: sans-serif;
+    margin-top: 1px;
+}
+.store-images{
+    position: relative;
+    margin-left: 27%;
+}
+/*Google play store and Apple app store icons*/
+
+.apple-img{
+    width: 32%;
+    height: auto;
+    position: absolute;
+}
+.android-img{
+    width: 39%;
+    height: auto;
+    position: absolute;
+    left: 34%;
+}
+
+@media  screen and (max-width: 768px){
+    .confirmation-text {
+        left: 12%;
+    }
+}

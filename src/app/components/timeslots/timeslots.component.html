@@ -1,0 +1,37 @@
+<nav class="navbar navbar-dark bg-primary">
+  <div class="col-sm-6">
+      <h2 class="heading">Tel3pathy</h2>
+  </div>
+  <div class="col-sm-6">
+    <div class="icons">
+      <i class ="Apple fa fa-apple"></i> &nbsp;&nbsp;
+      <i class="Apple Android fa fa-android"></i>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <b><h1>Schedule Call</h1></b>
+      <p class="meeting">{{rejectorsFirstName}} is in a meeting now, and request you to schedule a call with him/her</p> 
+      <p class="pick">Pick up a time when you want to schedule the call from below time slots.</p>
+      <b><h3 style="padding: 0 16px;margin-top:24px;">Available Time slots today</h3>
+    </b>
+
+    <div class="col-sm-12">
+      <form #timeslotsForm="ngForm">
+        <div style="margin-top: 12px;" *ngFor="let timeSlot of timeSlots; index as i">
+          <input type="radio"  name="finalSelectedTime" [(ngModel)]="finalSelectedTime" [value]="finalSelectedTime"  class="display_none" >
+          <label class="btn btn-light btn-block" (click)="open(i,timeSlot)">
+            <h4><span>{{timeSlot}}</span></h4>
+          </label>
+        </div>
+      </form>
+    </div>
+    <div class="send-request">
+      <button style="background: #337ab7 !important;border-radius: 25px !important;outline: none;margin-top: 18px;" (click)="postTimeSlot()" class="btn btn-primary btn-lg"><b>Send Request</b></button>
+    </div>  
+  </div>
+</div>
+    
+    
